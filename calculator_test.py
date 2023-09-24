@@ -24,9 +24,9 @@ def test_exponent():
     assert calculator.exponent(10,3) == "10 ^ 3 = 1000.0"
     
     
-if __name__ == "__main__":
-    test_add()
-    test_sub()
-    test_multiply()
-    test_divide()
-    test_exponent()
+# if __name__ == "__main__":
+#     test_add()
+#     test_sub()
+#     test_multiply()
+#     test_divide()
+#     test_exponent()

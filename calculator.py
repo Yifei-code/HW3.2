@@ -27,8 +27,14 @@ def exponent(x,y):
 
 
 def main():
-    print(add())
-    print(subtract())
-    print(multiply())
-    print(divide())
-    print(exponent())
+    x=int(input("enter an integer values:"))
+    y=int(input("enter anthor integer values: "))
+    
+    print(add(x,y))
+    print(subtract(x,y))
+    print(multiply(x,y))
+    print(divide(x,y))
+    print(exponent(x,y))
+    
+# if __name__ == "__main__":
+main()
