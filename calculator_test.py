@@ -19,8 +19,14 @@ def test_divide():
     assert calculator.divide(12,6) == "12 / 6 = 2.0"
     assert calculator.divide(6,0) == "6 / 0 = NaN"
     
+def test_exponent():
+    assert calculator.exponent(6,2) == "6 ^ 2 = 36.0"
+    assert calculator.exponent(10,3) == "10 ^ 3 = 1000.0"
+    
     
 if __name__ == "__main__":
     test_add()
     test_sub()
     test_multiply()
+    test_divide()
+    test_exponent()
