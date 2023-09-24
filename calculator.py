@@ -7,6 +7,12 @@ def subtract(x,y):
     result = x - y
     return f"{x} - {y} = {result}"
 
+def multiply(x,y):
+    result = x * y
+    return f"{x} * {y} = {result}"
+
+
 def main():
     print(add())
     print(subtract())
+    print(multiply())

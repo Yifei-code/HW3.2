@@ -10,6 +10,14 @@ def test_sub():
     assert calculator.subtract(2,17) == "2 - 17 = -15"
     
     
+def test_multiply():
+    assert calculator.multiply(6,1) == "6 * 1 = 6"
+    assert calculator.multiply(3,9) == "3 * 9 = 27"
+    
+    
+    
+    
 if __name__ == "__main__":
     test_add()
     test_sub()
+    test_multiply()
